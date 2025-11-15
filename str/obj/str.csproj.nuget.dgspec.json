@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alirezamaleklou/Desktop/Projects/store001/str/str.csproj": {}
+  },
+  "projects": {
+    "/Users/alirezamaleklou/Desktop/Projects/store001/str/str.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alirezamaleklou/Desktop/Projects/store001/str/str.csproj",
+        "projectName": "str",
+        "projectPath": "/Users/alirezamaleklou/Desktop/Projects/store001/str/str.csproj",
+        "packagesPath": "/Users/alirezamaleklou/.nuget/packages/",
+        "outputPath": "/Users/alirezamaleklou/Desktop/Projects/store001/str/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alirezamaleklou/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.203/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
