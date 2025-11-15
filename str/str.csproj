@@ -6,4 +6,52 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="src\" />
+    <None Remove="tests\" />
+    <None Remove="src\Domain\" />
+    <None Remove="src\Domain\Entities\" />
+    <None Remove="src\Domain\ValueObjects\" />
+    <None Remove="src\Domain\Interfaces\" />
+    <None Remove="src\Domain\Events\" />
+    <None Remove="src\Application\" />
+    <None Remove="src\Application\Interfaces\" />
+    <None Remove="src\Application\Products\" />
+    <None Remove="src\Application\Products\Commands\" />
+    <None Remove="src\Application\Products\Queries\" />
+    <None Remove="src\Application\Categories\" />
+    <None Remove="src\Application\Orders\" />
+    <None Remove="src\Infrastructure\" />
+    <None Remove="src\Infrastructure\Persistence\" />
+    <None Remove="src\Infrastructure\Repositories\" />
+    <None Remove="src\Infrastructure\Services\" />
+    <None Remove="src\WebApi\" />
+    <None Remove="src\WebApi\Controllers\" />
+    <None Remove="src\WebApi\Filters\" />
+    <None Remove="src\WebApi\Middlewares\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\" />
+    <Folder Include="tests\" />
+    <Folder Include="src\Domain\" />
+    <Folder Include="src\Domain\Entities\" />
+    <Folder Include="src\Domain\ValueObjects\" />
+    <Folder Include="src\Domain\Interfaces\" />
+    <Folder Include="src\Domain\Events\" />
+    <Folder Include="src\Application\" />
+    <Folder Include="src\Application\Interfaces\" />
+    <Folder Include="src\Application\Products\" />
+    <Folder Include="src\Application\Products\Commands\" />
+    <Folder Include="src\Application\Products\Queries\" />
+    <Folder Include="src\Application\Categories\" />
+    <Folder Include="src\Application\Orders\" />
+    <Folder Include="src\Infrastructure\" />
+    <Folder Include="src\Infrastructure\Persistence\" />
+    <Folder Include="src\Infrastructure\Repositories\" />
+    <Folder Include="src\Infrastructure\Services\" />
+    <Folder Include="src\WebApi\" />
+    <Folder Include="src\WebApi\Controllers\" />
+    <Folder Include="src\WebApi\Filters\" />
+    <Folder Include="src\WebApi\Middlewares\" />
+  </ItemGroup>
 </Project>
