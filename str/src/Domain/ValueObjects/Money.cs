@@ -5,11 +5,10 @@ namespace StoreApp.Domain.ValueObjects
         public string Name { get; }
         public string Symbol { get; }
 
-        public Money(string Name, string  Symbol )
-)
-        {
-           Name = Name;
-           Symbol = Symbol
-        }
+        public Money(string name, string symbol)
+       {
+          Name = name;
+          Symbol = symbol;
+        }  
     }
 }

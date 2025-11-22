@@ -7,14 +7,15 @@ namespace StoreApp.Domain.Entities
         public decimal Price { get; private set; }
 
         public Product(string name, decimal price)
-        {
-            if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Name required");
-            if (price <= 0) throw new ArgumentException("Price must be positive");
+       {
+         if (string.IsNullOrWhiteSpace(name)) throw new ArgumentException("Name required");
+         if (price <= 0) throw new ArgumentException("Price must be positive");
 
-            Id = Guid.NewGuid();
-            Name = name;
-            Price = price;
+         Id = Guid.NewGuid();
+         Name = name;
+         Price = price;
         }
+
         public void UpdatePrice(decimal newPrice)
         {
             if (newPrice <= 0) throw new ArgumentException("Price must be positive");
