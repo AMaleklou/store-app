@@ -15,7 +15,6 @@ namespace StoreApp.Domain.Entities
             Name = name;
             Price = price;
         }
-
         public void UpdatePrice(decimal newPrice)
         {
             if (newPrice <= 0) throw new ArgumentException("Price must be positive");
